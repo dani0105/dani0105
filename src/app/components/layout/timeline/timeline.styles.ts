@@ -11,11 +11,11 @@ export const Timeline = styled.div<{left:boolean, intercalate:boolean}>`
     bottom: 0;
     z-index: -1;
     ${(props) => props.intercalate && css`
-      left: '50%';     
+      left: 50%;     
     `}
 
     ${(props) => !props.intercalate && css`
-      left: props.left ? '0' : '100%';     
+      left: ${props.left ? '0' : '100%'};     
     `}
 
     margin-left: -3px
