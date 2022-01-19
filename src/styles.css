@@ -46,3 +46,11 @@ footer{
     font-size: 20px;
   }
 }
+
+.short-animation{
+  transition-duration: 350ms;
+}
+
+.large-animation{
+  transition-duration: 1000ms;
+}

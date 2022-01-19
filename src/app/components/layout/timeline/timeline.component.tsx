@@ -1,20 +1,21 @@
 import React from "react";
-import { 
-  ContainerTime, 
+import {
+  ContainerTime,
   Timeline,
   TimelineTitle
 } from './timeline.styles';
+import ScrollAnimation from 'react-animate-on-scroll';
 
-interface TimelineMark{
-  title:string,
-  link?:string,
-  content:string
+interface TimelineMark {
+  title: string,
+  link?: string,
+  content: string
 }
 
 interface Props {
-  intercalate:boolean,
-  left:boolean,
-  data:TimelineMark[]
+  intercalate: boolean,
+  left: boolean,
+  data: TimelineMark[]
 }
 
 export class TimelineComponent extends React.Component<Props>{
@@ -24,18 +25,20 @@ export class TimelineComponent extends React.Component<Props>{
     return (
       <Timeline left={left} intercalate={this.props.intercalate}>
         {this.props.data.map(data => {
-          if(this.props.intercalate){
-            left =!left;
+          if (this.props.intercalate) {
+            left = !left;
           }
-          return(
-          <ContainerTime key={data.title} left={left} intercalate={this.props.intercalate} >
-            <TimelineTitle className="title">
-              {data.link? (<a href={data.link}>{data.title}</a>):data.title}
-            </TimelineTitle>
-            <span className="text text-justify">
-              {data.content}
-            </span>
-          </ContainerTime>
+          return (
+            <ScrollAnimation key={data.title} className="large-animation" initiallyVisible={false} animateOnce={true} animateIn={left?'fadeInLeftBig':'fadeInRightBig'}>
+              <ContainerTime  left={left} intercalate={this.props.intercalate} >
+                <TimelineTitle className="title">
+                  {data.link ? (<a href={data.link}>{data.title}</a>) : data.title}
+                </TimelineTitle>
+                <span className="text text-justify">
+                  {data.content}
+                </span>
+              </ContainerTime>
+            </ScrollAnimation>
           )
         }
         )}

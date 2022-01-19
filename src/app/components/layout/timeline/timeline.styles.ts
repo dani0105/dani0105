@@ -10,6 +10,7 @@ export const Timeline = styled.div<{left:boolean,intercalate:boolean}>`
     background-color: #FCA8BC;
     top: 0;
     bottom: 0;
+    z-index: -1;
     left: ${props=>props.intercalate? "50%": props.left? "0":"100%"};
     margin-left: -3px
   }
@@ -35,6 +36,7 @@ export const Timeline = styled.div<{left:boolean,intercalate:boolean}>`
 export const ContainerTime = styled.div<{left:boolean,intercalate:boolean}>`
   padding: 10px 45px;
   position: relative;
+  z-index: 1;
   background-color: inherit;
   width: ${props => props.intercalate? '50%':'95%'};
 
