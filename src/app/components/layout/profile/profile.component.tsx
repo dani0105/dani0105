@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import {i18n} from '../../../i18n/i18n';
 
 export class ProfileComponent extends React.Component {
 
@@ -8,20 +9,20 @@ export class ProfileComponent extends React.Component {
       <Container className="mt-5 pb-sm-5" id="profile">
         <Row>
           <Col>
-            <h1 className="section-title mb-sm-5">Perfil</h1>
+            <h1 className="section-title mb-sm-5">{i18n.profile.sectionName}</h1>
           </Col>
         </Row>
         <Row className="mt-4">
           <Col md="9">
             <p className="text text-start">
-              ¡Hola! soy Daniel, un desarrollado web. Me encanta desarrollar páginas web y aplicaciones móvil de todo tipo. Me gusta descubrir nuevas tecnologías y técnicas front-end y back-end.
+              {i18n.profile.description1}
             </p>
             <p className="text text-start">
-              Cuando no estoy programado, estoy disfrutando de mis hobbies como los videojuegos, bordado y ciclismo.
+            {i18n.profile.description2}
             </p>
           </Col>
           <Col md="3">
-
+            
           </Col>
         </Row>
       </Container>

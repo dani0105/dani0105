@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Title,SubTittle, SocialMedias, SocialMedia } from './header.styles';
 import { AiOutlineTwitter, AiOutlineLinkedin, AiOutlineInstagram, AiFillGithub } from "react-icons/ai";
+import {i18n} from '../../../i18n/i18n';
 
 const SocialMediaList = [
   { name: "Twitter", icon: AiOutlineTwitter, link: "https://twitter.com/RojasDaniel0909" },
@@ -15,10 +16,10 @@ export class HeaderComponent extends React.Component {
     return (
       <Container>
         <Title>
-          Daniel Rojas
+          {i18n.header.title}
         </Title>
         <SubTittle>
-          Desarrollador Web
+          {i18n.header.subTitle}
         </SubTittle>
 
         <SocialMedias>
