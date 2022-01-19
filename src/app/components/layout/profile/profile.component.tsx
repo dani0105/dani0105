@@ -1,11 +1,10 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import { i18n } from '../../../i18n/i18n';
 import profileImage from './profile.jpg';
 import { ProfileImage } from './profile.styles';
 
 export class ProfileComponent extends React.Component {
-
   render() {
     return (
       <Container className="mt-5 pb-sm-5" id="profile">
@@ -33,5 +32,4 @@ export class ProfileComponent extends React.Component {
       </Container>
     );
   }
-
 }

@@ -1,12 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { TimelineComponent } from "../timeline/timeline.component";
-import { } from './projects.styles';
-import {i18n} from '../../../i18n/i18n';
-
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { TimelineComponent } from '../timeline/timeline.component';
+import { i18n } from '../../../i18n/i18n';
 
 export class ProjectsComponent extends React.Component {
-
   render() {
     return (
       <Container className="mt-5 pb-5 mb-sm-3" id="projects">
@@ -17,11 +14,10 @@ export class ProjectsComponent extends React.Component {
         </Row>
         <Row className="mt-5">
           <Col>
-            <TimelineComponent data={i18n.projects.list} intercalate={false} left={true}/>
+            <TimelineComponent data={i18n.projects.list} intercalate={false} left />
           </Col>
         </Row>
       </Container>
     );
   }
-
 }

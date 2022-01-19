@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #FFCC00;
@@ -22,7 +22,6 @@ export const SubTittle = styled.h2`
   margin: 0px;
   color: rgba(141,111,0,0.75);
 `;
-
 
 export const SocialMedia = styled.a`
   font-size: 28px;

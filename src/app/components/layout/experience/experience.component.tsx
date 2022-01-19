@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { TimelineComponent } from "../timeline/timeline.component";
-import {i18n} from '../../../i18n/i18n';
-export class ExperienceComponent extends React.Component{
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { TimelineComponent } from '../timeline/timeline.component';
+import { i18n } from '../../../i18n/i18n';
 
+export class ExperienceComponent extends React.Component {
   render() {
     return (
       <Container className="mt-5 pb-sm-5" id="experience">
@@ -14,11 +14,10 @@ export class ExperienceComponent extends React.Component{
         </Row>
         <Row className="mt-5">
           <Col>
-            <TimelineComponent data={i18n.experience.list} intercalate={true} left={true}/>
+            <TimelineComponent data={i18n.experience.list} intercalate left />
           </Col>
         </Row>
       </Container>
     );
   }
-
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   HeaderComponent,
   NavigatorComponent,
@@ -7,10 +7,9 @@ import {
   ExperienceComponent,
   FooterComponent,
   ProjectsComponent
-} from "../../components/";
+} from '../../components';
 
 export class App extends React.Component {
-
   render() {
     return (
       <div>
@@ -24,5 +23,4 @@ export class App extends React.Component {
       </div>
     );
   }
-
 }
