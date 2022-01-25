@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container } from './navigator.styles';
+import { Container, Button } from './navigator.styles';
 import { i18n } from '../../../i18n/i18n';
 
 const Routes = [
@@ -13,27 +13,11 @@ interface State{
 }
 
 export class NavigatorComponent extends React.Component<any, State> {
-  constructor(props:any) {
-    super(props);
-    this.state = { currentHash: window.location.hash };
-  }
-
-  componentDidMount() {
-    window.addEventListener('hashchange', () => {
-      this.setState({ currentHash: window.location.hash });
-    });
-  }
-
-  private mathRoute(router:string) {
-    const { currentHash } = this.state;
-    return currentHash === router;
-  }
-
   render() {
     return (
       <Container>
         {Routes.map((route) => (
-          <Button key={route.link} href={route.link} className={this.mathRoute(route.link) ? 'active' : ''}>
+          <Button smooth key={route.link} to={route.link}>
             {route.name}
           </Button>
         ))}

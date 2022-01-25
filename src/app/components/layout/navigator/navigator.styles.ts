@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { NavHashLink } from 'react-router-hash-link';
 
-export const Button = styled.a`
+export const Button = styled(NavHashLink)`
   background-color: transparent;
   padding: 5px 15px 5px 15px;
   border-radius: 5px;
