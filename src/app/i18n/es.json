@@ -55,6 +55,11 @@
     "sectionName": "Projects",
     "list": [
       {
+        "title": "SFS Modloader",
+        "content": "Cree un simple cargador de mods para el juego Space Flight Simulator. Este cargador facilita a los modders con una consola y carga automatica de su codigo dentro del juego",
+        "link": "https://github.com/105-Code/SFS-Modloader"
+      },
+      {
         "title": "Cumplimientool",
         "content": "Es un sistema que permite a los clientes de una empresa de asesoría legal poder revisar qué requisitos legales deben cumplir, validar su cumplimiento, monitoreo de actualizaciones en la legislación y llevar un control  de sus permisos",
         "link": "https://cumplimientool.com/login"
