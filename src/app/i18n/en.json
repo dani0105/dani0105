@@ -55,8 +55,13 @@
     "sectionName": "Projects",
     "list": [
       {
+        "title": "La Empresa",
+        "content": "I participated in the Game Jam organized by CIDeV where the theme was dystopia. I collaborated with two other people who were looking for equipment and we created this 2.5D game",
+        "link": "https://github.com/105-Code/la-empresa"
+      },
+      {
         "title": "SFS Modloader",
-        "content": "I created a simple mod loader for the game Space Flight Simulator. This loader makes it easy for modders create and load their mods into game",
+        "content": "I created a simple mod loader for the game Spaceflight Simulator. This loader makes it easy for modders create and load their mods into game",
         "link": "https://github.com/105-Code/SFS-Modloader"
       },
       {
