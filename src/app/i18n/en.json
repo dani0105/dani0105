@@ -9,7 +9,7 @@
   },
   "profile": {
     "sectionName": "Profile",
-    "description1": "Hi! I'am Daniel, a web developer. I love develop web pages and mobile aplication a lot of types. I like decover new tecnologies and front-end and backend techniques",
+    "description1": "Hi! I'am Daniel, a web developer. I love develop web pages and mobile aplication a lot of types. I like discover new tecnologies",
     "description2": "When i'an not programming, i'm enjoy mi hobbies like video games, needlework, and cycling."
   },
   "experience": {
@@ -32,7 +32,7 @@
         "date": "2019 - Now",
         "place": "Campus Local San Carlos",
         "title": "Computation bachelor degree",
-        "description": "In the university i learn software engineering basics such as: Data structures, POO, Quality assurance and Design Patterns.",
+        "description": "In the university i learn about: Data structures, POO, Quality assurance and Design Patterns.",
         "entity": "Costa Rica Institute of Technology"
       },
       {
@@ -55,8 +55,13 @@
     "sectionName": "Projects",
     "list": [
       {
+        "title": "MoreParts Mod",
+        "content": "This is a mod for the game Spacefligth Simulator. This Mod is one of the most downloaded mods in the game.",
+        "link": "https://github.com/105-Code/MorePartsMod"
+      },
+      {
         "title": "La Empresa",
-        "content": "I participated in the Game Jam organized by CIDeV where the theme was dystopia. I collaborated with two other people who were looking for equipment and we created this 2.5D game",
+        "content": "I participated in the Game Jam organized by CIDeV where the theme was dystopia. I collaborated with two other people who were looking for team and we created this 2.5D game",
         "link": "https://github.com/105-Code/la-empresa"
       },
       {
