@@ -9,8 +9,8 @@
   },
   "profile": {
     "sectionName": "Perfil",
-    "description1": "¡Hola! soy Daniel, un desarrollado web. Me encanta desarrollar páginas web y aplicaciones móvil de todo tipo. Me gusta descubrir nuevas tecnologías y técnicas front-end y back-end.",
-    "description2": "Cuando no estoy programado, estoy disfrutando de mis hobbies como los videojuegos, bordado y ciclismo."
+    "description1": "¡Hola! Soy Daniel, un desarrollador web. Estoy enfocado en el desarrollo de páginas web y aplicaciones móvil. Me gusta descubrir nuevas tecnologías e investigar cómo puedo resolver problemas con estos nuevos conocimientos.",
+    "description2": "También intento expandirme a otras áreas como la ciberseguridad y los videos juegos."
   },
   "experience": {
     "sectionName": "Experiencia",
@@ -20,7 +20,7 @@
         "content": "Desarrollador Fullstack en Asesoría Nairí"
       },
       {
-        "title": "2020 - 2021",
+        "title": "2019 - 2021",
         "content": "Desarrollador Fullstack en Comunidad de aplicaciones móviles"
       }
     ]
