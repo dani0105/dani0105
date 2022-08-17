@@ -33,7 +33,7 @@ export class HeaderComponent extends React.Component {
         </SubTittle>
         <SocialMedias>
           {SocialMediaList.map((socialMedia) => (
-            <SocialMedia target="_blank" key={socialMedia.name} href={socialMedia.link}>
+            <SocialMedia target="_blank" rel="noopener" key={socialMedia.name} href={socialMedia.link}>
               <socialMedia.icon />
             </SocialMedia>
           ))}
