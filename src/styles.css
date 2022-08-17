@@ -5,6 +5,11 @@ body {
   color: #434242;
 }
 
+.link, .link:hover{
+  text-decoration: none;
+  color: #434242;
+}
+
 .section-title{
   font-size: 55px;
   letter-spacing: 8px;
@@ -45,6 +50,11 @@ footer{
   .text{
     font-size: 20px;
   }
+
+  footer{
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
 }
 
 .short-animation{
@@ -53,4 +63,8 @@ footer{
 
 .large-animation{
   transition-duration: 1000ms;
+}
+
+.min-height{
+  min-height: 80vh;
 }

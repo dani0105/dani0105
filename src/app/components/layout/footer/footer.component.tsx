@@ -25,7 +25,7 @@ export class FooterComponent extends React.Component {
             </Row>
           </Col>
           <Col>
-            <Row className="justify-content-center p-3">
+            <Row className="justify-content-center p-sm-2">
               <hr />
               <SubTex className="text-center">Copyright © 2022 Daniel Rojas</SubTex>
             </Row>
