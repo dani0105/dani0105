@@ -35,7 +35,7 @@ export class App extends React.Component {
       <div>
         <Helmet>
           <title>Daniel Rojas Rodriguez - Curriculum Interactivo</title>
-          <meta name="description" content="Hola!, Soy Daniel Rojas Rodríguez, un desarrollado web con buenos conocimientos front-end" />
+          <meta name="description" content="Hola!, Esta es mi página web y espero que les guste." />
           <meta name="keywords" content="Daniel Rojas, Interactive Resume, programmer, Web developer, Interactive CV, Resume, CV, HRMatches, Curriculum interactivo, programador, Desarrollador web, dani0105, daniel, rojas" />
         </Helmet>
         <HeaderComponent />
