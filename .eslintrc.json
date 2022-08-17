@@ -25,7 +25,7 @@
   "rules": {
     "import/prefer-default-export": "off",
     "react/prefer-stateless-function": "off",
-    "react/destructuring-assignment":"off",
+    "react/destructuring-assignment": "off",
     "linebreak-style": 0,
     "react/jsx-filename-extension": [
       "warn",
@@ -53,7 +53,12 @@
         "imports": "never",
         "functions": "never"
       }
-    ]
+    ],
+    "class-methods-use-this": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-unused-vars":"warn",
+    "react/no-unused-state":"warn",
+    "react/no-children-prop":"off"
   },
   "settings": {
     "import/resolver": {
