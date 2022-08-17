@@ -80,5 +80,15 @@
         "link": "https://www.curseforge.com/minecraft/mc-mods/blacksmith"
       }
     ]
+  },
+  "blog":{
+    "sectionName": "Blog",
+    "blogFeed":"The Blog Feed",
+    "backToFeed":"Back to Blog Feed",
+    "date":"Fecha",
+    "summary":"Resumen",
+    "attachments":"Adjuntos",
+    "topic":"Tema",
+    "noDate":"Sin Fecha"
   }
 }

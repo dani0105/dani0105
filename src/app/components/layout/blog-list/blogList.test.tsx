@@ -1,13 +1,13 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import {NavigatorComponent} from './navigator.component';
+import { BlogListComponent } from './blogList.component';
 
-const ROUTES = [
-  { link: '/#profile', name: 'test', aria: 'test' }
+const DATA = [
+  { tittel: 'Prueba' }
 ];
 
 test('renders learn react link', () => {
-  render(<NavigatorComponent routes={ROUTES} />);
+  render(<BlogListComponent items={DATA} />);
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });

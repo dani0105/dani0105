@@ -4,19 +4,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
 import './styles.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { App } from './app/views';
+import { App, Blog } from './app/views';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
+  <BrowserRouter>
+    <React.StrictMode>
       <Switch>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+
         <Route path="*">
           <App />
         </Route>
       </Switch>
-    </BrowserRouter>
-  </React.StrictMode>,
+    </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
