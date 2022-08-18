@@ -101,7 +101,7 @@ export class Blog extends React.Component<{}, State> {
         <Switch>
           <Route path="/blog/:postId" component={Post} />
 
-          <Route path="*">
+          <Route path="/blog">
             <Helmet>
               <title>Blog - Daniel Rojas</title>
               <meta name="description" content="Hola!, Este es mi blog en el que comparto mis conocimientos" />

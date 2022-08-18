@@ -90,5 +90,8 @@
     "attachments":"Adjuntos",
     "topic":"Tema",
     "noDate":"Sin Fecha"
+  },
+  "notFound":{
+    "title":"404 Página no encontrada"
   }
 }
