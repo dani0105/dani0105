@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css/animate.min.css';
 import './styles.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { App, Blog, NotFound } from './app/views';
+import { App, NotFound } from './app/views';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,10 +13,6 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/">
           <App />
-        </Route>
-
-        <Route path="/blog">
-          <Blog />
         </Route>
 
         <Route component={NotFound} />

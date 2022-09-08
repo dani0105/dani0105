@@ -23,9 +23,6 @@ const ROUTES = [
   },
   {
     link: '#projects', name: i18n.projects.sectionName, aria: i18n.projects.sectionName, isLink: false
-  },
-  {
-    link: '/blog', name: i18n.blog.sectionName, aria: i18n.blog.sectionName, isLink: true
   }
 ];
 
