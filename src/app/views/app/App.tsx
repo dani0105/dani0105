@@ -23,6 +23,9 @@ const ROUTES = [
   },
   {
     link: '#projects', name: i18n.projects.sectionName, aria: i18n.projects.sectionName, isLink: false
+  },
+  {
+    link: 'https://blog.danielrojas.website/', name: i18n.projects.sectionName, aria: i18n.projects.sectionName, isLink: false
   }
 ];
 

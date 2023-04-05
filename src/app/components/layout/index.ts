@@ -5,5 +5,3 @@ export * from './education/education.component';
 export * from './experience/experience.component';
 export * from './footer/footer.component';
 export * from './projects/projects.component';
-export * from './blog-item/blogItem.component';
-export * from './blog-list/blogList.component';
