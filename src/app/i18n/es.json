@@ -16,8 +16,8 @@
     "sectionName": "Experiencia",
     "list": [
       {
-        "title": "2020 - Presente",
-        "content": "Desarrollador Fullstack en Asesoría Nairí"
+        "title": "2023 - Now",
+        "content": "Pasante en Imprivata"
       },
       {
         "title": "2022 - 2022",
@@ -86,14 +86,7 @@
     ]
   },
   "blog":{
-    "sectionName": "Blog",
-    "blogFeed":"Feed del Blog",
-    "backToFeed":"Volver al Feed",
-    "date":"Fecha",
-    "summary":"Resumen",
-    "attachments":"Adjuntos",
-    "topic":"Tema",
-    "noDate":"Sin Fecha"
+    "sectionName": "Blog"
   },
   "notFound":{
     "title":"404 Página no encontrada"

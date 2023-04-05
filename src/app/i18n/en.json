@@ -16,6 +16,10 @@
     "sectionName": "Experience",
     "list": [
       {
+        "title": "2023 - Now",
+        "content": "Internship at Imprivata"
+      },
+      {
         "title": "2020 - Now",
         "content": "Full Stack developer in Asesoría Nairí"
       },
@@ -86,14 +90,7 @@
     ]
   },
   "blog":{
-    "sectionName": "Blog",
-    "blogFeed":"The Blog Feed",
-    "backToFeed":"Back to Blog Feed",
-    "date":"Fecha",
-    "summary":"Resumen",
-    "attachments":"Adjuntos",
-    "topic":"Tema",
-    "noDate":"Sin Fecha"
+    "sectionName": "Blog"
   },
   "notFound":{
     "title":"404 Page not found"
