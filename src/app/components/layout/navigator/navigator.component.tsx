@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Link, HashLink } from './navigator.styles';
+import { Container, HashLink, A } from './navigator.styles';
 
 interface State {
   currentHash: string
@@ -15,9 +15,9 @@ export class NavigatorComponent extends React.Component<Props, State> {
       <Container>
         {this.props.routes.map((route: any) => (route.isLink
           ? (
-            <Link key={route.link} to={route.link}>
+            <A href={route.link}>
               {route.name}
-            </Link>
+            </A>
           )
           : (
             <HashLink smooth key={route.link} to={route.link}>

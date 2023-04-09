@@ -43,6 +43,26 @@ export const Link = styled(NavLink)`
     transition-duration: 500ms;
   }
 `;
+export const A = styled.a`
+  background-color: transparent;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  border:none;
+  color: #8D6F00;
+  font-size: 24px;
+  cursor: pointer;
+  &:hover {
+    color: white; 
+    transition-duration: 200ms;
+  }
+
+  &.active{
+    background-color: #434242;
+    color: white;
+    transition-duration: 500ms;
+  }
+`;
 
 export const Container = styled.div`
   position: sticky;
