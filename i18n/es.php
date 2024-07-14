@@ -91,7 +91,7 @@ const ES = array(
     'footer.qoute' => 'La gente normal cree que si no está roto, no lo arregles. Los ingenieros creen que si no está roto es que aún no tiene suficientes características',
     'footer.author' => 'Scott Adams',
 
-    '404'=>'Page not found!',
+    '404'=>'Página no encontrada!',
     '404.redirect'=>'Vuevle a la página principal',
     '404.here'=>'aquí',
 );

@@ -3,7 +3,7 @@ require_once './i18n/i18n.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo $lang ?>">
 
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,7 @@ require_once './i18n/i18n.php';
         </h1>
         <h2>
             <?php echo __('404.redirect') ?>
-            <a href="/"> <?php echo __('404.here') ?> </a>
+            <a href="/<?php echo $lang ?>"> <?php echo __('404.here') ?> </a>
         </h2>
     </div>
 
