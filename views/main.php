@@ -86,7 +86,7 @@ $canonical = 'https://www.danielrojas.website/'.$lang;
                     </a>
                 </li>
                 <li>
-                    <a class="social-media-icon" href="https://www.instagram.com/dani0105_r.r" target="_blank"
+                    <a class="social-media-icon" href="https://www.instagram.com/daniel.rojas.r" target="_blank"
                         rel="noopener">
                         <i class="icon-instagram"></i>
                     </a>
