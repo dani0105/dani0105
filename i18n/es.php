@@ -8,7 +8,7 @@ const ES = array(
     'meta.keywords' => 'daniel educación experiencia profesional juego juegos experiencia desarrollador desarrollo videojuegos imprivata tec costa rica web programación ingeniero en computación currículum san carlos',
     
     'header.title' => 'Daniel Rojas',
-    'header.subTitle' => 'Ingenierón en Computación',
+    'header.subTitle' => 'Ingeniero en Computación',
 
     'nav.profile' => 'Perfil',
     'nav.experience' => 'Experiencia',
