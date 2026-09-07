@@ -30,7 +30,8 @@ if( !in_array($lang, ACCEPT_LANG) ){
     die();
 }
 
-switch ($parts[0]) {
+
+switch ($parts[0] ?? '') {
     case '':
     case '/':
         require __DIR__ . VIEWS_DIR . 'main.php';

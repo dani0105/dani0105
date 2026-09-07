@@ -74,9 +74,9 @@ $canonical = 'https://www.danielrojas.website/'.$lang;
         <aside class="social-media-link">
             <ul class="list-unstyled d-flex justify-content-center pl-0">
                 <li>
-                    <a class="social-media-icon ml-0" href="https://twitter.com/RojasDaniel0105" target="_blank"
-                        rel="noopener">
-                        <i class="icon-twitter"></i>
+                    <a class="social-media-icon" href="https://www.youtube.com/@danielrojasYT"
+                        target="_blank" rel="noopener">
+                        <i class="icon-youtube"></i>
                     </a>
                 </li>
                 <li>
