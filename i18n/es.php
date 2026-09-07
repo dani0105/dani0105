@@ -19,16 +19,18 @@ const ES = array(
     'profile.title' => 'Perfil',
     'profile.alt.image' => 'Foto de perfil',
     'profile.description' => 'Soy un desarrollador full stack en el desarrollo de aplicaciones web. 
-    Tengo 4 años de experiencia de participar en desarrollos de aplicaciones web para empresas. 
+    Tengo 6 años de experiencia de participar en desarrollos de aplicaciones web para empresas. 
     En mi trabajo actual me encuentro a cargo del proyecto de desarrollo de la herramienta principal que usan los clientes de la empresa.',
-
-    
 
     'experience.title' => 'Experiencia',
     'experience.content' => [ 
         array(
+            'place'=>'Desarrollador en Nairí',
+            'date'=>'2020 - Presente',
+        ),
+        array(
             'place'=>'Desarrollador Junior en Imprivata',
-            'date'=>'2023 - Presente',
+            'date'=>'2023 - 2026',
         ),
         array(
             'place'=>'Pasante en Imprivata',
@@ -46,6 +48,13 @@ const ES = array(
 
     'education.title' => 'Educación',
     'education.content' => [ 
+        array(
+            'institution'=>'Curso en línea',
+            'date'=>'2025',
+            'description'=>'Tomé este curso para mejorar mis habilidades de desarrollo en este framework. Aprendí conceptos avanzados de React tales como Hooks, Context y Optimización de rendimiento.',
+            'title'=>'Epic React',
+            'location'=>'www.epicreact.dev'
+        ),
         array(
             'institution'=>'Tecnológico de Costa Rica',
             'date'=>'2019 - 2023',

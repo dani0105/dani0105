@@ -19,14 +19,18 @@ const EN = array(
     'profile.title' => 'Profile',
     'profile.alt.image' => 'Profile image',
     'profile.description' => 'I am a full stack developer specializing in web application development. 
-    I have 4 years of experience participating in web application development for companies. 
+    I have 6 years of experience participating in web application development for companies. 
     In my current role, I am responsible for leading the development project of the main tool used by the company\'s clients.',
 
     'experience.title' => 'Experience',
     'experience.content' => [ 
+          array(
+            'place'=>'Developer at Nairí',
+            'date'=>'2020 - Now',
+        ),
         array(
             'place'=>'Junior Developer at Imprivata',
-            'date'=>'2023 - Now',
+            'date'=>'2023 - 2026',
         ),
         array(
             'place'=>'Intern at Imprivata',
@@ -44,6 +48,13 @@ const EN = array(
 
     'education.title' => 'Education',
     'education.content' => [ 
+        array(
+            'institution'=>'Online Course',
+            'date'=>'2025',
+            'description'=>'I took this course to improve my development skills on this framework. I learned advanced concepts of React such as Hooks, Context, and Performance Optimization.',
+            'title'=>'Epic React',
+            'location'=>'www.epicreact.dev'
+        ),
         array(
             'institution'=>'Costa Rica Institute of Technology',
             'date'=>'2019 - 2023',
